@@ -3,6 +3,8 @@ import styles from './SpfxSortItems.module.scss';
 import { ISpfxSortItemsProps } from './ISpfxSortItemsProps';
 import { escape } from '@microsoft/sp-lodash-subset';
 
+import SortItemsContainerComponent from './SortItemsContainer/SortItemsContainerComponent';
+
 export default class SpfxSortItems extends React.Component<ISpfxSortItemsProps, {}> {
   public render(): React.ReactElement<ISpfxSortItemsProps> {
     const {
@@ -16,11 +18,14 @@ export default class SpfxSortItems extends React.Component<ISpfxSortItemsProps, 
     return (
       <section className={`${styles.spfxSortItems} ${hasTeamsContext ? styles.teams : ''}`}>
         <div className={styles.welcome}>
-          <img alt="" src={isDarkTheme ? require('../assets/welcome-dark.png') : require('../assets/welcome-light.png')} className={styles.welcomeImage} />
-          <h2>Well done, {escape(userDisplayName)}!</h2>
+          {/* <img alt="" src={isDarkTheme ? require('../assets/welcome-dark.png') : require('../assets/welcome-light.png')} className={styles.welcomeImage} /> */}
+          <h2>Hello, {escape(userDisplayName)}!</h2>
           <div>{environmentMessage}</div>
           {/* <div>Web part property value: <strong>{escape(description)}</strong></div> */}
           <div><strong>{escape(description)}</strong></div>
+        </div>
+        <div>
+          <SortItemsContainerComponent />
         </div>
         {/* <div>
           <h3>Welcome to SharePoint Framework!</h3>

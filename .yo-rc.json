@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "spfx-sort-items",
+    "libraryId": "f4c78bad-bff5-4ff3-b7dc-9ca9b188f086",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-sort-items",
+    "solutionShortDescription": "spfx-sort-items description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

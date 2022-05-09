@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-sort-items-client-side-solution",
+    "id": "f4c78bad-bff5-4ff3-b7dc-9ca9b188f086",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-sort-items description"
+      },
+      "longDescription": {
+        "default": "spfx-sort-items description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-sort-items Feature",
+        "description": "The feature that activates elements of the spfx-sort-items solution.",
+        "id": "59e8661c-bccf-4f00-ae99-cd27e7294cf7",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-sort-items.sppkg"
+  }
+}

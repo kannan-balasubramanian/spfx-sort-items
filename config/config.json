@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-sort-items-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxSortItems/SpfxSortItemsWebPart.js",
+          "manifest": "./src/webparts/spfxSortItems/SpfxSortItemsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxSortItemsWebPartStrings": "lib/webparts/spfxSortItems/loc/{locale}.js"
+  }
+}

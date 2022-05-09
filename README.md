@@ -10,7 +10,7 @@ This application demonstrates sorting of items.
 - Allow sorting items via up and down buttons.
 
 ## Screenshot
-[Screenshot](https://github.com/kannan-balasubramanian/spfx-sort-items/blob/master/Screenshot.png)
+![Screenshot](https://github.com/kannan-balasubramanian/spfx-sort-items/blob/master/Screenshot.png)
 
 ## Used SharePoint Framework Version
 

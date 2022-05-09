@@ -9,6 +9,9 @@ This application demonstrates sorting of items.
 - Allows adding items via an Add button.
 - Allow sorting items via up and down buttons.
 
+## Screenshot
+[Screenshot](https://github.com/kannan-balasubramanian/spfx-sort-items/blob/master/Screenshot.png)
+
 ## Used SharePoint Framework Version
 
 ![version](https://img.shields.io/badge/version-1.14-green.svg)
